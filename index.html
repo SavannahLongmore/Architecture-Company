@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>State File | A Front End Developer </title>
+    <meta name="description" content="Savannah Longmore's Sample Start File with SCSS">
+    <meta name="author" content="Savannah Longmore">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=GFS+Didot&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"><link href="css/styles.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!--fav icon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    
+</head>
+<body>
+    <div id="headerWrapper">
+        <header>
+            <img src="images/favicon.png" alt="logo" width="40" heigh="40">
+            <h1>Havencrest Architecture</h1>
+        </header>
+    </div> 
+    <div id="navWrapper">
+        <nav>
+            <ul>
+                <li class="active"><a href="#">Welcome</a></li>
+                <li><a href="#">Communities</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Floor Plans</a></li>
+                <li><a href="#">Homebuyer Guide</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="mainWrapper">
+        <main>
+            <!--<picture class="hero">
+       <source media="(min-width: 300px) and (max-width: 699px)" srcset="images/hero-small.webp" 
+       <source media="(min-width: 700px) and (max-width: 1099px)" srcset="images/hero-medium.webp"
+       <source media="(min-width: 1100px) and (max-width: 1500px)" srcset="images/hero-large.webp"
+       <img src="images/hero-default.webp" alt="#" width="16" height="9">
+    </picture>-->
+     <picture class="hero">
+       <source media="(max-width: 700px)" srcset="images/hero-small.webp" loading="lazy">
+       <source media="(max-width: 1100px)" srcset="images/hero-medium.webp" loading="lazy">
+       <img src="images/hero-large.webp" alt="#" width="16" height="9" loading="lazy">
+    </picture>
+            <h1>What We Do</h1>
+            <section class="intro">
+  <p>
+    Your dream home deserves more than a blueprint. Havencrest Architecture brings your vision to life with care, precision, and timeless design. Start building your future today.
+  </p>
+</section>
+            <video controls >
+  <source src="media/Home Security Video_hb.mp4" type="video/mp4" />
+  <source src="media/Home Security Video_hb.webm" type="video/webm" />
+  <track
+    label="English"
+    kind="subtitles"
+    srclang="en"
+    src="media/savannah-english.vtt"
+    default />
+  <track
+    label="Español"
+    kind="subtitles"
+    srclang="es"
+    src="media/savannah-spanish.vtt" />
+</video>
+<details>
+    <summary>Video Transript</summary>
+    <p>People pay a lot of money for home security. Well, even though my house didn't come with home security, our house is very secure because we can hear anyone anywhere throughout this entire house. Our walls are super thin and our floorboards are the squeakiest. So, if you're home alone and you know you're home alone, then if you happen to hear any squeaking at all, you better call 911 because if you can get to them before they can get to you, then you are safe. But if it happens to be grandpa fixing the dryer again and you call 911 on him, that's going to be pretty awkward to explain.
+</p>
+</details>
+        </main>
+    </div>
+<section class="gallerySection container">
+  <h2 class="galleryTitle">Gallery</h2>
+
+  <div class="gallery">
+    <div class="card galleryHero">
+      <img src="images/architecture_1.jpg" alt="Architecture 1" loading="lazy">
+    </div>
+
+    <div class="card topRight">
+      <img src="images/architecture_2.jpg" alt="Architecture 2" loading="lazy">
+    </div>
+
+    <div class="card midRight">
+      <img src="images/architecture_3.jpg" alt="Architecture 3" loading="lazy">
+    </div>
+
+    <div class="card bottomLeft">
+      <img src="images/architecture_4.jpg" alt="Architecture 4" loading="lazy">
+    </div>
+
+    <div class="card bottomWide">
+      <img src="images/architecture_5.jpg" alt="Architecture 5" loading="lazy">
+    </div>
+  </div>
+</section>
+</div>
+    <div id="footerWrapper">
+        <footer>
+            <img src="images/favicon.png" alt="logo" width="40" heigh="40" class="footerLogo">
+            <p>&copy; <span id="year">x</span> &bull; Savannah Lomgmore</p>
+        </footer>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
