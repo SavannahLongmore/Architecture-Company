@@ -407,7 +407,7 @@ details {
   margin: 0.5rem 16px;
 }
 details summary {
-  background-color: none;
+  background-color: transparent;
 }
 
 /* Headings */
@@ -513,6 +513,7 @@ h2 {
 }
 /* Footer */
 #footerWrapper {
+  margin-top: 1rem;
   background-color: rgba(209, 108, 0, 0.296);
 }
 

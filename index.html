@@ -22,7 +22,7 @@
 <body>
     <div id="headerWrapper">
         <header>
-            <img src="images/favicon.png" alt="logo" width="40" heigh="40">
+            <img src="images/favicon.png" alt="logo" width="40" height="40">
             <h1>Havencrest Architecture</h1>
         </header>
     </div> 
@@ -45,11 +45,17 @@
        <source media="(min-width: 1100px) and (max-width: 1500px)" srcset="images/hero-large.webp"
        <img src="images/hero-default.webp" alt="#" width="16" height="9">
     </picture>-->
-     <picture class="hero">
-       <source media="(max-width: 700px)" srcset="images/hero-small.webp" loading="lazy">
-       <source media="(max-width: 1100px)" srcset="images/hero-medium.webp" loading="lazy">
-       <img src="images/hero-large.webp" alt="#" width="16" height="9" loading="lazy">
-    </picture>
+   <picture class="hero">
+
+  <source media="(max-width: 700px)" srcset="images/hero-small.webp">
+
+  <source media="(max-width: 1100px)" srcset="images/hero-medium.webp">
+
+  <img src="images/hero-large.webp"
+       alt="Modern Havencrest home exterior"
+       loading="lazy">
+
+</picture>
             <h1>What We Do</h1>
             <section class="intro">
   <p>
@@ -57,8 +63,8 @@
   </p>
 </section>
             <video controls >
-  <source src="media/Home Security Video_hb.mp4" type="video/mp4" />
-  <source src="media/Home Security Video_hb.webm" type="video/webm" />
+   <source src="media/home-security-video_hb.mp4" type="video/mp4">
+  <source src="media/home-security-video_hb.webm" type="video/webm">
   <track
     label="English"
     kind="subtitles"
@@ -102,11 +108,10 @@
       <img src="images/architecture_5.jpg" alt="Architecture 5" loading="lazy">
     </div>
   </div>
-</section>
-</div>
+
     <div id="footerWrapper">
         <footer>
-            <img src="images/favicon.png" alt="logo" width="40" heigh="40" class="footerLogo">
+            <img src="images/favicon.png" alt="logo" width="40" height="40" class="footerLogo">
             <p>&copy; <span id="year">x</span> &bull; Savannah Lomgmore</p>
         </footer>
     </div>

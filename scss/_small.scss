@@ -120,7 +120,7 @@ details {
   margin: 0.5rem $gutter;
 
   summary {
-    background-color: none;
+    background-color: transparent;
   }
 }
 
@@ -230,6 +230,7 @@ h2 {
 
 /* Footer */
 #footerWrapper {
+    margin-top: 1rem;
     background-color: rgba(209, 108, 0, 0.296);
 
 }
